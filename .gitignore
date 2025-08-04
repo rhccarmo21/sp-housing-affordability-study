@@ -1,0 +1,14 @@
+# Arquivos temporários
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Arquivos sensíveis
+.env
+*.parquet
+*.feather
+
+# Dados brutos (mantém apenas a estrutura)
+data/raw/*
+!data/raw/.gitkeep
